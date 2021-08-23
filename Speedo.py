@@ -472,6 +472,14 @@ async def fastpurger(purg):
         purg.chat_id,
         "`Fast purge complete!\n`Purged " + str(count) + " messages.",
     )
+    if e. sender_id in PRO_USERS:
+        await purg.client.delete_messages(chat, msgs)
+    done = await purg.client.send_message(
+        purg.chat_id,
+        "`Fast purge complete!\n`Purged " + str(count) + " messages.",
+    )
+            
+            
     await sleep(2)
         
 @idk. on(events.  NewMessage(incoming=True, pattern=r"\.spam"))
