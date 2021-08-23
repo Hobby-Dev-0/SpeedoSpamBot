@@ -3,7 +3,7 @@ A Spammming bot for telegram Notice [Telegram Account May Get Banned]
 
  #  Click On This To Deploy
 
-[! [Deploy To Heroku] (https://www.herokucdn.com/deploy/button.svg)] (https://heroku.com/deploy?template=https://github.com/InternetAmethyst/SpeedoSpamBot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/InternetAmethyst/SpeedoSpamBot)
 
 
 # Session Gen 
