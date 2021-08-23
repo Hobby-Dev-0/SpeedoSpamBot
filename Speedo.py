@@ -91,8 +91,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 2")
             await ydk. start()
-            await ydk(functions.  channels. JoinChannelRequest(channel="@javes2support"))
-            await ydk(functions.  channels. JoinChannelRequest(channel="@javesgroup"))
+            await ydk(functions.  channels. JoinChannelRequest(channel="@Andencento"))
+            await ydk(functions.  channels. JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await ydk. get_me()
             botid = telethon. utils. get_peer_id(botme)
             PRO_USERS. append(botid)
@@ -116,8 +116,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 3")
             await wdk. start()
-            await wdk(functions.  channels. JoinChannelRequest(channel="@javes2support"))
-            await wdk(functions.  channels. JoinChannelRequest(channel="@javesgroup"))
+            await wdk(functions.  channels. JoinChannelRequest(channel="@Andencento"))
+            await wdk(functions.  channels. JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await wdk. get_me()
             botid = telethon. utils. get_peer_id(botme)
             PRO_USERS. append(botid)
@@ -141,8 +141,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 4")
             await hdk. start()
-            await hdk(functions.  channels. JoinChannelRequest(channel="@javes2support"))
-            await hdk(functions.  channels. JoinChannelRequest(channel="@javesgroup"))
+            await hdk(functions.  channels. JoinChannelRequest(channel="@Andencento"))
+            await hdk(functions.  channels. JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await hdk. get_me()
             botid = telethon. utils. get_peer_id(botme)
             PRO_USERS. append(botid)
@@ -166,8 +166,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@javes2support"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@javesgroup"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@Andencento"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             PRO_USERS.append(botid)
@@ -191,8 +191,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@javes2support"))
-            await adk(functions.channels.JoinChannelRequest(channel="@javesgroup"))
+            await adk(functions.channels.JoinChannelRequest(channel="@Andencento"))
+            await adk(functions.channels.JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             PRO_USERS.append(botid)
@@ -216,8 +216,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@javes2support"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@javesgroup"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@Andencento"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             PRO_USERS.append(botid)
@@ -242,8 +242,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 8")
             await cdk. start()
-            await cdk(functions.  channels. JoinChannelRequest(channel="@javes2support"))
-            await cdk(functions.  channels. JoinChannelRequest(channel="@javesgroup"))
+            await cdk(functions.  channels. JoinChannelRequest(channel="@Andencento"))
+            await cdk(functions.  channels. JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await cdk. get_me()
             botid = telethon. utils. get_peer_id(botme)
             PRO_USERS. append(botid)
@@ -267,8 +267,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 9")
             await ddk. start()
-            await ddk(functions.  channels. JoinChannelRequest(channel="@javes2support"))
-            await ddk(functions.  channels. JoinChannelRequest(channel="@javesgroup"))
+            await ddk(functions.  channels. JoinChannelRequest(channel="@Andencento"))
+            await ddk(functions.  channels. JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await ddk. get_me()
             botid = telethon. utils. get_peer_id(botme)
             PRO_USERS. append(botid)
@@ -293,8 +293,8 @@ async def start_atgk():
         try:
             print("Booting Up The Client 10")
             await edk. start()
-            await edk(functions.  channels. JoinChannelRequest(channel="@javes2support"))
-            await edk(functions.  channels. JoinChannelRequest(channel="@javesgroup"))
+            await edk(functions.  channels. JoinChannelRequest(channel="@Andencento"))
+            await edk(functions.  channels. JoinChannelRequest(channel="@SpeedoSupportOfficial"))
             botme = await edk. get_me()
             botid = telethon. utils. get_peer_id(botme)
             PRO_USERS. append(botid)
@@ -969,7 +969,7 @@ requirements_path = path. join(
 
 
 GIT_REPO_NAME = "SPAMMER"
-UPSTREAM_REPO_URL = "https://github.com/Javes786/SPAMMER"
+UPSTREAM_REPO_URL = "https://github.com/InternetAmethyst/SpeedoSpamBot"
 
 async def gen_chlog(repo, diff):
     ch_log = ''
@@ -1143,16 +1143,11 @@ async def _(e):
 
         
 text = """
-╱╭━━━╮               
-╱┃╭━╮┃               
-╱┃┃╱┃┣╮╭┳━━┳━━┳━╮  
-╱┃╰━╯┃╰╯┃╭╮┃╭╮┃╭╮╮ 
-╱┃╭━╮┃┃┃┃╭╮┃╭╮┃┃┃┃ 
-╱╰╯╱╰┻┻┻┻╯╰┻╯╰┻╯╰╯"""
-
+Aman Is Pro
+"""
 print(text)
 print("")
-print("SMEX! JAVES SPAMMER Started Sucessfully.")
+print("Started! SpeedoXAndencento SPAMMER Started Sucessfully.")
 if len(sys.  argv) not in (1, 3, 4):
     try:
         idk. disconnect()
