@@ -149,7 +149,7 @@ async def start_atgk():
         except Exception as e:
             print(e)
             pass
-    else:
+    else
         print("Session 4 not Found")
         pass
         session_name = "startup"
@@ -437,7 +437,42 @@ async def _(e):
             await e. reply(usage, parse_mode=None, link_preview=None )
             
                 
-        
+
+
+@idk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@ydk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@wdk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@hdk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@sdk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@adk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@bdk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@cdk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@edk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+@ddk. on(events.  NewMessage(incoming=True, pattern=r"\.purge"))
+async def fastpurger(purg):
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = Purge\n\nCommand:\n\n.Purge Messages to Delete Reply From There>\n\n.Purge Messages to Delete Reply From There\n\nPurge Messages to Delete Reply From There"
+    error = "Please Rely The Message."
+    """ For .purge command, purge all messages starting from the reply. """
+    chat = await purg.get_input_chat()
+    msgs = []
+    count = 0
+
+    async for msg in purg.client.iter_messages(chat,
+                                               min_id=purg.reply_to_msg_id):
+        msgs.append(msg)
+        count = count + 1
+        msgs.append(purg.reply_to_msg_id)
+        if len(msgs) == 100:
+            await purg.client.delete_messages(chat, msgs)
+            msgs = []
+
+    if msgs:
+        await purg.client.delete_messages(chat, msgs)
+    done = await purg.client.send_message(
+        purg.chat_id,
+        "`Fast purge complete!\n`Purged " + str(count) + " messages.",
+    )
+    await sleep(2)
         
 @idk. on(events.  NewMessage(incoming=True, pattern=r"\.spam"))
 @ydk. on(events.  NewMessage(incoming=True, pattern=r"\.spam"))
