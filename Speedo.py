@@ -149,7 +149,7 @@ async def start_atgk():
         except Exception as e:
             print(e)
             pass
-    else
+    else:
         print("Session 4 not Found")
         pass
         session_name = "startup"
